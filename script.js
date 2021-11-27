@@ -252,3 +252,25 @@ window.open(M.c.toDataURL());
 };window.onload = function () {
 M.init();
 };
+
+
+
+
+document.addEventListener("contextmenu", function () {
+  event.preventDefault();
+});
+document.addEventListener("paste", function () {
+  event.preventDefault();
+});
+document.addEventListener("copy", function () {
+  event.preventDefault();
+});
+document.addEventListener("cut", function () {
+  event.preventDefault();
+});
+document.addEventListener("keydown", function () {
+  event.preventDefault();
+});
+document.addEventListener("selectstart", function () {
+  event.preventDefault();
+});
